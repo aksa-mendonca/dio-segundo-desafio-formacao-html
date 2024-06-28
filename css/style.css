@@ -4,6 +4,10 @@
     list-style-type: none;
 }
 
+.options-nav:active {
+    color: rgb(132, 75, 173);
+}
+
 a {
     color: #1c0b2b;
     text-decoration: none;
@@ -97,6 +101,7 @@ header, main, footer {
 }
 
 .attribute-about {
+    padding: 0 0 2rem 0;
     font-size: 1.3rem;
     margin-left: 2rem;
     margin-top: 1rem;
@@ -104,8 +109,20 @@ header, main, footer {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .attribute-about h2 {
+    padding-top: 1rem;
+    text-align: center;
     font-size: 1.5rem;
 }
 .attribute-about p {
     padding-top: 1rem;
+}
+
+.info-attribute-about {
+    margin: 1rem;
+    border: solid 2px #301c41;
+    border-radius: 10px;
+}
+.info-attribute-about p {
+    padding: 1rem;
+    font-size: 1.2rem;
 }
