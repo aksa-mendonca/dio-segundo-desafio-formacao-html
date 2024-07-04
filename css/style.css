@@ -78,6 +78,10 @@ nav {
     flex-direction: column;
 }
 
+.links-nav {
+    font-size: 1.1rem;
+}
+
 header {
     text-align: center;
 }
@@ -93,25 +97,15 @@ header {
 }
 
 .img-nav {
-    width: 1.5rem;
-    margin-right: 0.5rem;
+    width: 1.3rem;
+    margin-right: 0.2rem;
 }
 
-/* header, main, footer {
-    width: 85%;
-    margin-left: 15%;
-} */
-
-.title-about {
+.title-about, .title-home {
     font-size: 1.8rem;
     font-weight: bold;
     margin-left: 2rem;
     margin-top: 1.5rem;
-}
-
-main p {
-    font-size: 1.5rem;
-    padding: 2rem 2rem;
 }
 
 .attribute-about {
@@ -140,4 +134,47 @@ main p {
 .info-attribute-about p {
     padding: 1rem;
     font-size: 1.2rem;
+}
+
+.info-about, .text-one-home, .text-table-time{
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+}
+
+.text-two-home, .text-end-home {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.text-end-home {
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+
+.title-home {
+    text-align: center;
+}
+
+table, th, td {
+    text-align: center;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.table {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.table caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+table thead {
+    font-weight: bold;
+    background-color: #d3dbf1;
 }
