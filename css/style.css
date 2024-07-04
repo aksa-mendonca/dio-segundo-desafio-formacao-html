@@ -150,7 +150,6 @@ header {
 .text-end-home {
     padding-top: 3rem;
     text-align: center;
-    
 }
 
 .title-home {
@@ -178,3 +177,22 @@ table thead {
     font-weight: bold;
     background-color: #d3dbf1;
 }
+
+.imgs-main-contact {
+    width: 1.5rem;
+}
+
+/* .info-main-contact {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-end;
+} */
+
+/* .info-details-main-contact {
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: ;
+} */
+
