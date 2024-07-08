@@ -101,7 +101,7 @@ header {
     margin-right: 0.2rem;
 }
 
-.title-about, .title-home, .title-contact {
+.title-about, .title-home, .title-contact{
     font-size: 1.8rem;
     font-weight: bold;
     margin-left: 2rem;
@@ -136,15 +136,17 @@ header {
     font-size: 1.2rem;
 }
 
-.info-about, .text-one-home, .text-table-time{
-    font-size: 1.5rem;
+.info-about, .text-one-home, .text-table-time {
     padding: 2rem 2rem;
 }
 
 .text-two-home, .text-end-home {
-    font-size: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.text-two-home, .text-end-home, .info-about, .text-one-home, .text-table-time {
+    font-size: 1.5rem;
 }
 
 .text-end-home {
@@ -180,19 +182,70 @@ table thead {
 
 .imgs-main-contact {
     width: 1.5rem;
+    padding-right: 1rem;
 }
 
-/* .info-main-contact {
-    align-items: center;
+.info-main-contact {
+    padding-top: 2rem;
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-around;
     align-content: flex-end;
-} */
+}
 
-/* .info-details-main-contact {
+.info-details-main-contact {
     font-size: 1.3rem;
-    display: grid;
-    grid-template-columns: ;
-} */
+    display: flex;
+}
 
+.maps-main-contact{
+    text-align: center;
+}
+
+.subtitle-maps-main-contact  {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.address-maps-main-contact {
+    margin: 1rem;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.fieldset-main-contact {
+    margin-top: 3rem;
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    justify-items: center;
+}
+
+.fieldset-main-contact fieldset {
+    width: 15rem;
+    margin: 2rem;
+    border-radius: 10px;
+    border-color: #1c0b2b;
+}
+
+.message-fieldset-main-contact, .personal-data-fieldset-main-contact {
+    text-align: left;
+    display: inline-block;
+}
+.personal-data-fieldset-main-contact label, input {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.message-fieldset-main-contact input, textarea {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.buttons-fieldset-main-contact {
+    padding: 0.5rem;
+}
