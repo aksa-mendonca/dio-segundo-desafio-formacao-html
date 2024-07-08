@@ -219,8 +219,7 @@ table thead {
 
 .fieldset-main-contact {
     margin-top: 3rem;
-    /* display: flex;
-    justify-content: center; */
+
     display: grid;
     justify-items: center;
 }
